@@ -1,0 +1,14 @@
+# Oil & Gas Analytics Dashboard - Python packages
+# Tested with Python 3.12 (Python 3.10+ recommended)
+# Install with:  pip install -r requirements.txt
+
+streamlit>=1.32          # web app (tested with 1.64)
+pandas>=2.0              # data tables (tested with 3.0)
+numpy>=1.24              # numeric work
+matplotlib>=3.7          # dashboard charts
+seaborn>=0.12            # chart styling
+python-pptx>=1.0         # PowerPoint export (template based)
+openpyxl>=3.1            # read .xlsx / .xlsm report files
+xlsxwriter>=3.1          # Excel report export
+pillow>=10.0             # image sizing for the PowerPoint charts
+lxml>=4.9                # used by python-pptx (installed automatically)
